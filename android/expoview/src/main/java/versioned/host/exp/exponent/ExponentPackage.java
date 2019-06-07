@@ -47,7 +47,6 @@ import versioned.host.exp.exponent.modules.api.components.svg.SvgPackage;
 import versioned.host.exp.exponent.modules.api.components.webview.RNCWebViewModule;
 import versioned.host.exp.exponent.modules.api.components.webview.RNCWebViewPackage;
 import versioned.host.exp.exponent.modules.api.netinfo.NetInfoModule;
-import versioned.host.exp.exponent.modules.api.notifications.NotificationsModule;
 import versioned.host.exp.exponent.modules.api.reanimated.ReanimatedModule;
 import versioned.host.exp.exponent.modules.api.screens.RNScreensPackage;
 import versioned.host.exp.exponent.modules.api.viewshot.RNViewShotModule;
@@ -163,7 +162,6 @@ public class ExponentPackage implements ReactPackage {
         ScopedContext scopedContext = new ScopedContext(reactContext, experienceId.getUrlEncoded());
 
         nativeModules.add(new ExponentAsyncStorageModule(reactContext, mManifest));
-        nativeModules.add(new NotificationsModule(reactContext, mManifest, mExperienceProperties));
         nativeModules.add(new RNViewShotModule(reactContext, scopedContext));
         nativeModules.add(new ExponentTestNativeModule(reactContext));
         nativeModules.add(new PedometerModule(reactContext));
