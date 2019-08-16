@@ -3816,10 +3816,10 @@ CACHE_KEYS:
   Amplitude-iOS:
     BUILD_SETTINGS_CHECKSUM:
       Amplitude-iOS: 23d52fb77c25cb250bd876a075157383
-    CHECKSUM: a0347ab05f2d196e6bbb22cc6f62eea33b5a035b
+    CHECKSUM: 2f704f85db0a6ded42cdeadb8aa0918d68019db1
     PROJECT_NAME: Amplitude-iOS
     SPECS:
-      - Amplitude-iOS (4.7.1)
+      - Amplitude-iOS (4.8.0)
   Analytics:
     BUILD_SETTINGS_CHECKSUM:
       Analytics: 700a4af424803b95e9baeef13029741a
@@ -4196,6 +4196,16 @@ CACHE_KEYS:
     PROJECT_NAME: EXDocumentPicker
     SPECS:
       - EXDocumentPicker (7.0.0-rc.0)
+  EXErrorRecovery:
+    BUILD_SETTINGS_CHECKSUM:
+      EXErrorRecovery: 03069191ef27dea52bcf42a6f81ec324
+    CHECKSUM: d36db99ec6a3808f313f01b0890eb443796dd1c2
+    FILES:
+      - "../../packages/expo-error-recovery/ios/EXErrorRecovery/EXErrorRecoveryModule.h"
+      - "../../packages/expo-error-recovery/ios/EXErrorRecovery/EXErrorRecoveryModule.m"
+    PROJECT_NAME: EXErrorRecovery
+    SPECS:
+      - EXErrorRecovery (1.0.0)
   EXFacebook:
     BUILD_SETTINGS_CHECKSUM:
       EXFacebook: abea3ef79476e083995184af2c4950a7
@@ -4707,11 +4717,11 @@ CACHE_KEYS:
       - FirebaseCoreDiagnosticsInterop (1.0.0)
   FirebaseInstanceID:
     BUILD_SETTINGS_CHECKSUM:
-      FirebaseInstanceID: 6dec70002c82b31bedf8c94557a46e2a
-    CHECKSUM: 8b42755db950682e7de0d167bc6fb26a57b244af
+      FirebaseInstanceID: c92291506e791fa6f00900c1e23ed731
+    CHECKSUM: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
     PROJECT_NAME: FirebaseInstanceID
     SPECS:
-      - FirebaseInstanceID (4.2.3)
+      - FirebaseInstanceID (4.2.5)
   FirebaseMLCommon:
     BUILD_SETTINGS_CHECKSUM:
       FirebaseMLCommon: f81498f19f70f7a1148bf0781677d150
@@ -4783,26 +4793,26 @@ CACHE_KEYS:
   GoogleDataTransport:
     BUILD_SETTINGS_CHECKSUM:
       GoogleDataTransport: 5d12673ba5a26842c5e7e8121f9dc890
-    CHECKSUM: 91e682bd60a49d3f8f69f2e909a66efaed5a1e7a
+    CHECKSUM: 8f9897b8e073687f24ca8d3c3a8013dec7d2d1cc
     PROJECT_NAME: GoogleDataTransport
     SPECS:
-      - GoogleDataTransport (1.1.3)
+      - GoogleDataTransport (1.2.0)
   GoogleDataTransportCCTSupport:
     BUILD_SETTINGS_CHECKSUM:
       GoogleDataTransportCCTSupport: ebde532f61d980cac950ad4fb6b36b17
-    CHECKSUM: 6b545f7149111180763dc18c6f372c963de4a310
+    CHECKSUM: 7455d07b98851aa63e4c05a34dad356ca588479e
     PROJECT_NAME: GoogleDataTransportCCTSupport
     SPECS:
-      - GoogleDataTransportCCTSupport (1.0.2)
+      - GoogleDataTransportCCTSupport (1.0.4)
   GoogleMaps:
     BUILD_SETTINGS_CHECKSUM:
       GoogleMaps: b52b5d3d53d602b6bb43907915bf192e
-    CHECKSUM: cfee83da305b9aaeccf92c24ac79df11c3003492
+    CHECKSUM: 67f4a604f80dd6a22d09c2a507a3a395b9f23060
     PROJECT_NAME: GoogleMaps
     SPECS:
-      - GoogleMaps (3.3.0)
-      - GoogleMaps/Base (3.3.0)
-      - GoogleMaps/Maps (3.3.0)
+      - GoogleMaps (3.4.0)
+      - GoogleMaps/Base (3.4.0)
+      - GoogleMaps/Maps (3.4.0)
   GoogleMobileVision:
     BUILD_SETTINGS_CHECKSUM:
       GoogleMobileVision: e96382fb9452ad86223f4a814fbec22a
@@ -4830,17 +4840,17 @@ CACHE_KEYS:
   GoogleUtilities:
     BUILD_SETTINGS_CHECKSUM:
       GoogleUtilities: 931fb5872f0a144063b9e8f3d18e26d4
-    CHECKSUM: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
+    CHECKSUM: 9c2c544202301110b29f7974a82e77fdcf12bf51
     PROJECT_NAME: GoogleUtilities
     SPECS:
-      - GoogleUtilities/AppDelegateSwizzler (6.2.5)
-      - GoogleUtilities/Environment (6.2.5)
-      - GoogleUtilities/Logger (6.2.5)
-      - GoogleUtilities/MethodSwizzler (6.2.5)
-      - GoogleUtilities/Network (6.2.5)
-      - "GoogleUtilities/NSData+zlib (6.2.5)"
-      - GoogleUtilities/Reachability (6.2.5)
-      - GoogleUtilities/UserDefaults (6.2.5)
+      - GoogleUtilities/AppDelegateSwizzler (6.3.0)
+      - GoogleUtilities/Environment (6.3.0)
+      - GoogleUtilities/Logger (6.3.0)
+      - GoogleUtilities/MethodSwizzler (6.3.0)
+      - GoogleUtilities/Network (6.3.0)
+      - "GoogleUtilities/NSData+zlib (6.3.0)"
+      - GoogleUtilities/Reachability (6.3.0)
+      - GoogleUtilities/UserDefaults (6.3.0)
   GTMAppAuth:
     BUILD_SETTINGS_CHECKSUM:
       GTMAppAuth: 1df3dab7d018bdd526ab065474943f89
@@ -4882,16 +4892,16 @@ CACHE_KEYS:
       - nanopb/encode (0.3.901)
   Pods-Exponent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 87126328340af0aa5af6b38ee95f5645
-      Release: 87126328340af0aa5af6b38ee95f5645
+      Debug: 33e0ae5162b78440ce13c9e7112b8ea5
+      Release: 33e0ae5162b78440ce13c9e7112b8ea5
   Pods-ExponentIntegrationTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 1aeb8b1ccac3cd876fdb52df41d00242
-      Release: 1aeb8b1ccac3cd876fdb52df41d00242
+      Debug: 62cf1dae9d8bbb7217da79b5e48d2509
+      Release: 62cf1dae9d8bbb7217da79b5e48d2509
   Pods-Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 1aeb8b1ccac3cd876fdb52df41d00242
-      Release: 1aeb8b1ccac3cd876fdb52df41d00242
+      Debug: 62cf1dae9d8bbb7217da79b5e48d2509
+      Release: 62cf1dae9d8bbb7217da79b5e48d2509
   Protobuf:
     BUILD_SETTINGS_CHECKSUM:
       Protobuf: 984e9f934a23b843d02efe3856627b34
