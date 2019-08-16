@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 import { mockPlatformAndroid, mockPlatformIOS, unmockAllProperties } from 'jest-expo';
 
-import * as ScreenOrientation from '../ScreenOrientation/ScreenOrientation';
+import * as ScreenOrientation from 'expo-screen-orientation';
 
 it(`throws when lockAsync is called with an unsupported type`, async () => {
   await expect(ScreenOrientation.lockAsync(NaN as any)).rejects.toThrowError(TypeError);

@@ -603,6 +603,8 @@ PODS:
     - UMFileSystemInterface
   - EXRandom (6.0.0):
     - UMCore
+  - EXScreenOrientation (1.0.0):
+    - UMCore
   - EXSecureStore (6.0.0):
     - UMCore
   - EXSegment (6.0.0):
@@ -1142,6 +1144,7 @@ DEPENDENCIES:
   - EXPermissions (from `../packages/expo-permissions/ios`)
   - EXPrint (from `../packages/expo-print/ios`)
   - EXRandom (from `../packages/expo-random/ios`)
+  - EXScreenOrientation (from `../packages/expo-screen-orientation/ios`)
   - EXSecureStore (from `../packages/expo-secure-store/ios`)
   - EXSegment (from `../packages/expo-analytics-segment/ios`)
   - EXSensors (from `../packages/expo-sensors/ios`)
@@ -1220,15 +1223,27 @@ DEPENDENCIES:
   - yogaABI34_0_0 (from `./versioned-react-native/ABI34_0_0/ReactCommon/ABI34_0_0yoga`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Branch
+    - CocoaLumberjack
+    - Crashlytics
+    - Fabric
+    - FirebaseMLCommon
+    - FirebaseMLVision
+    - FirebaseMLVisionFaceModel
+    - Google-Maps-iOS-Utils
+    - GoogleMobileVision
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - JKBigInteger2
+    - nanopb
+    - Protobuf
   trunk:
     - Amplitude-iOS
     - Analytics
     - AppAuth
     - boost-for-react-native
     - Branch
-    - CocoaLumberjack
-    - Crashlytics
-    - Fabric
     - FBAudienceNetwork
     - FBSDKCoreKit
     - FBSDKLoginKit
@@ -1238,9 +1253,6 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - FirebaseInstanceID
-    - FirebaseMLCommon
-    - FirebaseMLVision
-    - FirebaseMLVisionFaceModel
     - Google-Maps-iOS-Utils
     - Google-Mobile-Ads-SDK
     - GoogleAPIClientForREST
@@ -1250,14 +1262,11 @@ SPEC REPOS:
     - GoogleMaps
     - GoogleMobileVision
     - GoogleSignIn
-    - GoogleToolboxForMac
     - GoogleUtilities
     - GTMAppAuth
     - GTMSessionFetcher
-    - JKBigInteger2
     - lottie-ios
     - nanopb
-    - Protobuf
 
 EXTERNAL SOURCES:
   ABI33_0_0EXAdsAdMob:
@@ -1620,6 +1629,9 @@ EXTERNAL SOURCES:
   EXRandom:
     :path: !ruby/object:Pathname
     path: "../packages/expo-random/ios"
+  EXScreenOrientation:
+    :path: !ruby/object:Pathname
+    path: "../packages/expo-screen-orientation/ios"
   EXSecureStore:
     :path: !ruby/object:Pathname
     path: "../packages/expo-secure-store/ios"
@@ -1873,6 +1885,7 @@ SPEC CHECKSUMS:
   EXPermissions: 99e52dc3e5f8e55153f1958004f6df2a30a1f2f5
   EXPrint: ad5e463fbc7de12f44339685612d3fb086d936ab
   EXRandom: 805938db37fa1d66833cb9c0cf44fb54cd208b5a
+  EXScreenOrientation: 64d2a99623fc4bfa6cb3163eb63a2d2d75ee98ab
   EXSecureStore: e929213a8a5e8c55cdd4615e52e283c11cba975e
   EXSegment: da1b9e10a5a47525c989ee0892205ed422817894
   EXSensors: d6878e6848acfb67a93b8bf7f790a93f9a47008b
