@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'maven'
 apply plugin: 'com.jakewharton.butterknife'
+apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlin-kapt"
 
 // WHEN_VERSIONING_REMOVE_FROM_HERE
 //maven repository info
@@ -132,6 +134,13 @@ configurations.all {
 apply from: "../../node_modules/react-native-unimodules/gradle.groovy"
 // WHEN_VERSIONING_REMOVE_TO_HERE
 
+kapt {
+  generateStubs = true
+  arguments {
+    arg("targetModuleName", "Expoview")
+  }
+}
+
 dependencies {
   api fileTree(dir: 'libs', include: ['*.jar'])
   api 'com.android.support:multidex:1.0.3'
@@ -235,7 +244,7 @@ dependencies {
   api 'com.google.firebase:firebase-messaging:18.0.0'
   api 'com.google.maps.android:android-maps-utils:0.5'
   api 'com.jakewharton:butterknife:9.0.0'
-  annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
+  kapt 'com.jakewharton:butterknife-compiler:9.0.0'
   // Remember to update DetachAppTemplate build.gradle if you add any excludes or transitive = false here!
 
   // expo-file-system
@@ -247,7 +256,7 @@ dependencies {
   api 'com.google.android.exoplayer:extension-okhttp:2.9.2'
 
   //dbflow
-  annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+  kapt "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
   implementation "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
   implementation "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
 
