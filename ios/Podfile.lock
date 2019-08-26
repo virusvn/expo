@@ -600,6 +600,8 @@ PODS:
     - UMPermissionsInterface
   - EXNetwork (0.0.1):
     - UMCore
+  - EXNotifications (1.0.0):
+    - UMCore
   - EXPermissions (6.0.0):
     - UMCore
     - UMPermissionsInterface
@@ -1143,6 +1145,7 @@ DEPENDENCIES:
   - EXMailComposer (from `../packages/expo-mail-composer/ios`)
   - EXMediaLibrary (from `../packages/expo-media-library/ios`)
   - EXNetwork (from `../packages/expo-network/ios`)
+  - EXNotifications (from `../packages/expo-notifications/ios`)
   - EXPermissions (from `../packages/expo-permissions/ios`)
   - EXPrint (from `../packages/expo-print/ios`)
   - EXRandom (from `../packages/expo-random/ios`)
@@ -1616,6 +1619,9 @@ EXTERNAL SOURCES:
   EXNetwork:
     :path: !ruby/object:Pathname
     path: "../packages/expo-network/ios"
+  EXNotifications:
+    :path: !ruby/object:Pathname
+    path: "../packages/expo-notifications/ios"
   EXPermissions:
     :path: !ruby/object:Pathname
     path: "../packages/expo-permissions/ios"
@@ -1876,6 +1882,7 @@ SPEC CHECKSUMS:
   EXMailComposer: 801ebd0bfd0c6e743a69102168b35b00efa67277
   EXMediaLibrary: 0b9e6c90cd40f5d5df8b58c9f68665039a485146
   EXNetwork: be7e9060970126a0ee277b4bbc5ad59fe26e99a5
+  EXNotifications: ed29d0adef64a1dc88229fde5e1f642eb92ecbca
   EXPermissions: 99e52dc3e5f8e55153f1958004f6df2a30a1f2f5
   EXPrint: ad5e463fbc7de12f44339685612d3fb086d936ab
   EXRandom: 805938db37fa1d66833cb9c0cf44fb54cd208b5a
@@ -1942,4 +1949,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0c31289bb12ff2856e0f1c12c1c4125815c933d5
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.7.5

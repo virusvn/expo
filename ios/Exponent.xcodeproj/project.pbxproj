@@ -17,11 +17,9 @@
 		0CC6F961225F5C7700322635 /* ExpoKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6F960225F5C7700322635 /* ExpoKitAppDelegate.m */; };
 		19382BA91EC2EACC001ED4A1 /* EXScopedBranchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19382BA81EC2EACC001ED4A1 /* EXScopedBranchManager.m */; };
 		19B2EF751FB25A1A003F2E1B /* EXCachedResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B2EF741FB25A1A003F2E1B /* EXCachedResourceManager.m */; };
-		2519CCFC216B292600FA7C80 /* EXUserNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519CCFB216B292600FA7C80 /* EXUserNotificationCenter.m */; };
 		2520E83A21ABEEF100D900A4 /* EXScopedFilePermissionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520E83921ABEEF100D900A4 /* EXScopedFilePermissionModule.m */; };
 		255A630A2154FB89009FDFC6 /* EXPendingNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A63092154FB88009FDFC6 /* EXPendingNotification.m */; };
 		25742BE72174B8BE003E7453 /* EXExpoUserNotificationCenterProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25742BE62174B8BE003E7453 /* EXExpoUserNotificationCenterProxy.m */; };
-		25742BF121774212003E7453 /* EXNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 25742BEF21774212003E7453 /* EXNotifications.m */; };
 		2596F06B22201A9500DEEFF9 /* EXScopedFileSystemModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596F06A22201A9400DEEFF9 /* EXScopedFileSystemModule.m */; };
 		31239A2522AE91EB003BFCAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31239A2422AE91EB003BFCAF /* GoogleService-Info.plist */; };
 		31361A5A2260B2F600662769 /* EXScopedSecureStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 31361A592260B2F600662769 /* EXScopedSecureStore.m */; };
@@ -164,10 +162,6 @@
 		7043DFAD2283303800272D74 /* RNSVGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7043DF742283303800272D74 /* RNSVGNode.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		78CEE2D11ACD07D70095B124 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CEE2D01ACD07D70095B124 /* Images.xcassets */; };
 		78CEE2D41ACD07D70095B124 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CEE2D21ACD07D70095B124 /* LaunchScreen.xib */; };
-		78D82527204E8F9C00CBD9D9 /* EXApiV2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D82526204E8F9C00CBD9D9 /* EXApiV2Client.m */; };
-		78D8252A204F826700CBD9D9 /* EXApiV2Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D82529204F826700CBD9D9 /* EXApiV2Result.m */; };
-		78D8252E2051217F00CBD9D9 /* NSData+EXRemoteNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D8252D2051217F00CBD9D9 /* NSData+EXRemoteNotifications.m */; };
-		78D825312051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D825302051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.m */; };
 		B505BA2020CAF80D0046ACFB /* EXEnvironmentMocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B505BA1A20CAF80D0046ACFB /* EXEnvironmentMocks.m */; };
 		B505BA2120CAF80D0046ACFB /* EXEnvironmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B505BA1D20CAF80D0046ACFB /* EXEnvironmentTests.m */; };
 		B50C4C0B20EEBCE20090E5F9 /* EXApiV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C4C0A20EEBCE20090E5F9 /* EXApiV2Tests.m */; };
@@ -210,7 +204,7 @@
 		B5AC39AC1E95A90B00540AA7 /* EXKernelDevMotionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC399A1E95A90B00540AA7 /* EXKernelDevMotionHandler.m */; };
 		B5AC39AD1E95A90B00540AA7 /* EXProvisioningProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC399D1E95A90B00540AA7 /* EXProvisioningProfile.m */; };
 		B5AC39AF1E95A90B00540AA7 /* EXVersions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC39A11E95A90B00540AA7 /* EXVersions.m */; };
-		B5AC39B01E95A90B00540AA7 /* EXUserNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC39A41E95A90B00540AA7 /* EXUserNotificationManager.m */; };
+		B5AC39B01E95A90B00540AA7 /* EXUserNotificationManagerLegacy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC39A41E95A90B00540AA7 /* EXUserNotificationManagerLegacy.m */; };
 		B5AC39B11E95A90B00540AA7 /* EXRemoteNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC39A61E95A90B00540AA7 /* EXRemoteNotificationManager.m */; };
 		B5AC39D61E95B17300540AA7 /* EXErrorRecoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC39D51E95B17300540AA7 /* EXErrorRecoveryManager.m */; };
 		B5ADEE951F7DB4E000C88D2F /* EXBuildConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ADEE941F7DB4E000C88D2F /* EXBuildConstants.m */; };
@@ -369,16 +363,12 @@
 		19382BA81EC2EACC001ED4A1 /* EXScopedBranchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXScopedBranchManager.m; sourceTree = "<group>"; };
 		19B2EF731FB25A1A003F2E1B /* EXCachedResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXCachedResourceManager.h; sourceTree = "<group>"; };
 		19B2EF741FB25A1A003F2E1B /* EXCachedResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXCachedResourceManager.m; sourceTree = "<group>"; };
-		2519CCFA216B292600FA7C80 /* EXUserNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXUserNotificationCenter.h; sourceTree = "<group>"; };
-		2519CCFB216B292600FA7C80 /* EXUserNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXUserNotificationCenter.m; sourceTree = "<group>"; };
 		2520E83821ABEEF100D900A4 /* EXScopedFilePermissionModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXScopedFilePermissionModule.h; sourceTree = "<group>"; };
 		2520E83921ABEEF100D900A4 /* EXScopedFilePermissionModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXScopedFilePermissionModule.m; sourceTree = "<group>"; };
 		255A63082154FB88009FDFC6 /* EXPendingNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXPendingNotification.h; sourceTree = "<group>"; };
 		255A63092154FB88009FDFC6 /* EXPendingNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXPendingNotification.m; sourceTree = "<group>"; };
 		25742BE52174B8BE003E7453 /* EXExpoUserNotificationCenterProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXExpoUserNotificationCenterProxy.h; sourceTree = "<group>"; };
 		25742BE62174B8BE003E7453 /* EXExpoUserNotificationCenterProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXExpoUserNotificationCenterProxy.m; sourceTree = "<group>"; };
-		25742BEC21774211003E7453 /* EXNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXNotifications.h; sourceTree = "<group>"; };
-		25742BEF21774212003E7453 /* EXNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXNotifications.m; sourceTree = "<group>"; };
 		2596F06922201A9400DEEFF9 /* EXScopedFileSystemModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXScopedFileSystemModule.h; sourceTree = "<group>"; };
 		2596F06A22201A9400DEEFF9 /* EXScopedFileSystemModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXScopedFileSystemModule.m; sourceTree = "<group>"; };
 		31239A2422AE91EB003BFCAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -668,14 +658,6 @@
 		78CEE2C01ACD07D70095B124 /* Exponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CEE2D01ACD07D70095B124 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78CEE2D31ACD07D70095B124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		78D82525204E8F9C00CBD9D9 /* EXApiV2Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXApiV2Client.h; sourceTree = "<group>"; };
-		78D82526204E8F9C00CBD9D9 /* EXApiV2Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXApiV2Client.m; sourceTree = "<group>"; };
-		78D82528204F826700CBD9D9 /* EXApiV2Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXApiV2Result.h; sourceTree = "<group>"; };
-		78D82529204F826700CBD9D9 /* EXApiV2Result.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXApiV2Result.m; sourceTree = "<group>"; };
-		78D8252C2051217F00CBD9D9 /* NSData+EXRemoteNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+EXRemoteNotifications.h"; sourceTree = "<group>"; };
-		78D8252D2051217F00CBD9D9 /* NSData+EXRemoteNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+EXRemoteNotifications.m"; sourceTree = "<group>"; };
-		78D8252F2051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EXApiV2Client+EXRemoteNotifications.h"; sourceTree = "<group>"; };
-		78D825302051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EXApiV2Client+EXRemoteNotifications.m"; sourceTree = "<group>"; };
 		80F51F42EE852A05B015A15E /* Pods-Exponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Exponent/Pods-Exponent.debug.xcconfig"; sourceTree = "<group>"; };
 		929FABE1C395FB3FECB8B2DE /* Pods-ExponentIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExponentIntegrationTests/Pods-ExponentIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A44375C5408A1FBD7D682FA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -766,8 +748,8 @@
 		B5AC399D1E95A90B00540AA7 /* EXProvisioningProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXProvisioningProfile.m; sourceTree = "<group>"; };
 		B5AC39A01E95A90B00540AA7 /* EXVersions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXVersions.h; sourceTree = "<group>"; };
 		B5AC39A11E95A90B00540AA7 /* EXVersions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXVersions.m; sourceTree = "<group>"; };
-		B5AC39A31E95A90B00540AA7 /* EXUserNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXUserNotificationManager.h; sourceTree = "<group>"; };
-		B5AC39A41E95A90B00540AA7 /* EXUserNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXUserNotificationManager.m; sourceTree = "<group>"; };
+		B5AC39A31E95A90B00540AA7 /* EXUserNotificationManagerLegacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXUserNotificationManagerLegacy.h; sourceTree = "<group>"; };
+		B5AC39A41E95A90B00540AA7 /* EXUserNotificationManagerLegacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXUserNotificationManagerLegacy.m; sourceTree = "<group>"; };
 		B5AC39A51E95A90B00540AA7 /* EXRemoteNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRemoteNotificationManager.h; sourceTree = "<group>"; };
 		B5AC39A61E95A90B00540AA7 /* EXRemoteNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRemoteNotificationManager.m; sourceTree = "<group>"; };
 		B5AC39D41E95B17300540AA7 /* EXErrorRecoveryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXErrorRecoveryManager.h; sourceTree = "<group>"; };
@@ -1343,29 +1325,11 @@
 			path = Exponent;
 			sourceTree = "<group>";
 		};
-		78D82524204E8F6C00CBD9D9 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				78D82525204E8F9C00CBD9D9 /* EXApiV2Client.h */,
-				78D82526204E8F9C00CBD9D9 /* EXApiV2Client.m */,
-				78D82528204F826700CBD9D9 /* EXApiV2Result.h */,
-				78D82529204F826700CBD9D9 /* EXApiV2Result.m */,
-			);
-			name = Api;
-			path = Exponent/Kernel/Api;
-			sourceTree = SOURCE_ROOT;
-		};
 		78D8252B2051213D00CBD9D9 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
-				78D8252F2051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.h */,
-				78D825302051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.m */,
 				B5AC39A51E95A90B00540AA7 /* EXRemoteNotificationManager.h */,
 				B5AC39A61E95A90B00540AA7 /* EXRemoteNotificationManager.m */,
-				78D8252C2051217F00CBD9D9 /* NSData+EXRemoteNotifications.h */,
-				78D8252D2051217F00CBD9D9 /* NSData+EXRemoteNotifications.m */,
-				2519CCFA216B292600FA7C80 /* EXUserNotificationCenter.h */,
-				2519CCFB216B292600FA7C80 /* EXUserNotificationCenter.m */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -1567,7 +1531,6 @@
 		B5AC398B1E95A90B00540AA7 /* Kernel */ = {
 			isa = PBXGroup;
 			children = (
-				78D82524204E8F6C00CBD9D9 /* Api */,
 				B5D0D660204F4C0400DDFC99 /* AppLoader */,
 				B5AC398C1E95A90B00540AA7 /* Core */,
 				B5AC39941E95A90B00540AA7 /* DevSupport */,
@@ -1645,8 +1608,8 @@
 				B5576084204A423B0041D9C8 /* EXHomeModuleManager.m */,
 				B5C2740A1EC24AE1003355CE /* EXKernelLinkingManager.h */,
 				B5C2740B1EC24AE1003355CE /* EXKernelLinkingManager.m */,
-				B5AC39A31E95A90B00540AA7 /* EXUserNotificationManager.h */,
-				B5AC39A41E95A90B00540AA7 /* EXUserNotificationManager.m */,
+				B5AC39A31E95A90B00540AA7 /* EXUserNotificationManagerLegacy.h */,
+				B5AC39A41E95A90B00540AA7 /* EXUserNotificationManagerLegacy.m */,
 				31E6D47C20B844FA0082B09F /* EXSensorManager.h */,
 				31E6D47D20B8451B0082B09F /* EXSensorManager.m */,
 				B57180FE1F0FF41600315A66 /* EXScreenOrientationManager.h */,
@@ -1756,8 +1719,6 @@
 				B5FB73811FF6DADB001C764B /* EXErrorRecovery.m */,
 				B5FB738E1FF6DADB001C764B /* EXImageUtils.h */,
 				B5FB738F1FF6DADB001C764B /* EXImageUtils.m */,
-				25742BEC21774211003E7453 /* EXNotifications.h */,
-				25742BEF21774212003E7453 /* EXNotifications.m */,
 				B5FB73961FF6DADB001C764B /* EXScreenOrientation.h */,
 				B5FB73971FF6DADB001C764B /* EXScreenOrientation.m */,
 				07639ABB20507B2C00B4BE4C /* EXUpdates.h */,
@@ -2519,6 +2480,7 @@
 				BB5BD32720AEFCB4007E02FC /* REAEventNode.m in Sources */,
 				B5FB74B01FF6DADC001C764B /* EXScreenOrientation.m in Sources */,
 				B5D0D679204F4C0400DDFC99 /* EXReactAppManager.m in Sources */,
+				255A630A2154FB89009FDFC6 /* EXPendingNotification.m in Sources */,
 				31AD99E82285B51100F19090 /* AIRGoogleMapCalloutManager.m in Sources */,
 				31AD99E32285B51100F19090 /* AIRGoogleMapMarkerManager.m in Sources */,
 				B5A473DA204A66F70035C61C /* EXAppViewController.m in Sources */,
@@ -2541,7 +2503,6 @@
 				31AD9A332285B53100F19090 /* AIRMapOverlayManager.m in Sources */,
 				F11E531221601059007ACF56 /* EXHeadlessAppLoader.m in Sources */,
 				B5FB74DF1FF6DADC001C764B /* EXDevSettings.m in Sources */,
-				78D8252E2051217F00CBD9D9 /* NSData+EXRemoteNotifications.m in Sources */,
 				B5A72C3420A0D42D00974CCE /* EXAppLoader.m in Sources */,
 				7043DF832283303800272D74 /* RNSVGSvgViewManager.m in Sources */,
 				7043DF982283303800272D74 /* RNSVGViewBox.m in Sources */,
@@ -2557,13 +2518,11 @@
 				31AD99ED2285B51100F19090 /* AIRGoogleMapManager.m in Sources */,
 				7043DFAC2283303800272D74 /* RNSVGGlyphContext.m in Sources */,
 				31AD9A352285B53100F19090 /* AIRMapManager.m in Sources */,
-				78D82527204E8F9C00CBD9D9 /* EXApiV2Client.m in Sources */,
 				31AD9A3A2285B53100F19090 /* AIRMapPolygonManager.m in Sources */,
 				318102BA20C15E460061726F /* EXLinkingManager.m in Sources */,
 				7043DFA62283303800272D74 /* RNSVGTextPath.m in Sources */,
 				B5BC7B191FF6DA7B00F102C1 /* EXGLARSessionManager.m in Sources */,
 				31AD99E62285B51100F19090 /* AIRGoogleMapWMSTileManager.m in Sources */,
-				25742BF121774212003E7453 /* EXNotifications.m in Sources */,
 				7043DF9D2283303800272D74 /* RNSVGLinearGradient.m in Sources */,
 				31AD9A4E2285B53100F19090 /* AIRMapPolyline.m in Sources */,
 				3179683620B5B96A00243B6B /* EXScopedModuleRegistryAdapter.m in Sources */,
@@ -2601,13 +2560,12 @@
 				B5FB74B61FF6DADC001C764B /* EXViewShot.m in Sources */,
 				BB50E89220B9C0D3003C752D /* RNTapHandler.m in Sources */,
 				BB5BD31D20AEFCB4007E02FC /* REAPropsNode.m in Sources */,
-				B5AC39B01E95A90B00540AA7 /* EXUserNotificationManager.m in Sources */,
+				B5AC39B01E95A90B00540AA7 /* EXUserNotificationManagerLegacy.m in Sources */,
 				31AD9A372285B53100F19090 /* AIRMapMarker.m in Sources */,
 				BB50E88B20B9C0D3003C752D /* RNGestureHandlerEvents.m in Sources */,
 				31AD9A492285B53100F19090 /* SMCalloutView.m in Sources */,
 				7043DF822283303800272D74 /* RNSVGClipPathManager.m in Sources */,
 				2520E83A21ABEEF100D900A4 /* EXScopedFilePermissionModule.m in Sources */,
-				78D8252A204F826700CBD9D9 /* EXApiV2Result.m in Sources */,
 				31361A5D2260B9A400662769 /* EXScopedAmplitude.m in Sources */,
 				B56C65CC204769F9002B2424 /* EXMenuViewController.m in Sources */,
 				B5AC39A71E95A90B00540AA7 /* EXKernel.m in Sources */,
@@ -2620,7 +2578,6 @@
 				31571B2A2265DC9700358D65 /* EXScopedSegment.m in Sources */,
 				31AD99DE2285B51100F19090 /* AIRGoogleMapPolygonManager.m in Sources */,
 				B5A72C3020A0D1BF00974CCE /* EXAppFetcher.m in Sources */,
-				255A630A2154FB89009FDFC6 /* EXPendingNotification.m in Sources */,
 				7043DFA42283303800272D74 /* RNSVGGroup.m in Sources */,
 				B5AC39AA1E95A90B00540AA7 /* EXKernelDevKeyCommands.m in Sources */,
 				7043DF812283303800272D74 /* RNSVGNodeManager.m in Sources */,
@@ -2639,7 +2596,6 @@
 				6AF6CA2722687D8B00FB11C1 /* REATransition.m in Sources */,
 				BB50E88920B9C0D3003C752D /* RNGestureHandlerManager.m in Sources */,
 				317168FA213DA0E000766458 /* EXScopedReactNativeAdapter.m in Sources */,
-				78D825312051226200CBD9D9 /* EXApiV2Client+EXRemoteNotifications.m in Sources */,
 				0CC6F961225F5C7700322635 /* ExpoKitAppDelegate.m in Sources */,
 				31AD99F22285B51100F19090 /* AIRGoogleMapCalloutSubviewManager.m in Sources */,
 				31E6D47E20B8451B0082B09F /* EXSensorManager.m in Sources */,
@@ -2694,7 +2650,6 @@
 				31AD9A452285B53100F19090 /* AIRMapUrlTile.m in Sources */,
 				31AD9A402285B53100F19090 /* AIRMapCircle.m in Sources */,
 				319C949F22F80DE100063194 /* EXScopedBranch.m in Sources */,
-				2519CCFC216B292600FA7C80 /* EXUserNotificationCenter.m in Sources */,
 				7043DF842283303800272D74 /* RNSVGDefsManager.m in Sources */,
 				B58F125C20B73455003E13F1 /* EXEnvironment.m in Sources */,
 				317306082242459A006D1BC0 /* RNCNetInfo.m in Sources */,
