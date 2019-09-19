@@ -6,12 +6,12 @@ import host.exp.exponent.kernel.ExperienceId
 
 class ScopedErrorRecoveryModule(context: Context, val experienceId: ExperienceId) : ErrorRecoveryModule(context) {
   override fun setRecoveryProps(props: String) {
-    mSharedPreferences.edit().putString(experienceId.get(), props).apply()
+    mSharedPreferences.edit().putString(experienceId.get(), props).commit()
   }
 
   override fun consumeRecoveryProps(): String? {
     return mSharedPreferences.getString(experienceId.get(), null)?.let {
-      mSharedPreferences.edit().remove(experienceId.get()).apply()
+      mSharedPreferences.edit().remove(experienceId.get()).commit()
       it
     }
   }

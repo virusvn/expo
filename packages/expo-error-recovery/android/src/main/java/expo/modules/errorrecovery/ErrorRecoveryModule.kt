@@ -34,12 +34,12 @@ open class ErrorRecoveryModule(context: Context) : ExportedModule(context) {
 
 
   protected open fun setRecoveryProps(props: String) {
-    mSharedPreferences.edit().putString(RECOVERY_STORE_KEY, props).apply()
+    mSharedPreferences.edit().putString(RECOVERY_STORE_KEY , props).commit()
   }
 
   protected open fun consumeRecoveryProps(): String? {
     return mSharedPreferences.getString(RECOVERY_STORE_KEY, null)?.let {
-      mSharedPreferences.edit().remove(RECOVERY_STORE_KEY).apply()
+      mSharedPreferences.edit().remove(RECOVERY_STORE_KEY).commit()
       it
     }
   }
